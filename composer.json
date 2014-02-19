@@ -1,0 +1,13 @@
+{
+    "name": "cakper/phpspec-dino",
+    "license": "MIT",
+    "type": "project",
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*@dev",
+        "phpspec/nyan-formatters": "1.*"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {"psr-0": {"": "src"}}
+}
